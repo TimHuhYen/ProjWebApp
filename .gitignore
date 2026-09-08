@@ -1,0 +1,33 @@
+bin/
+obj/
+out/
+
+# vs files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+.vscode/
+
+.idea/
+
+# nugget
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+*.db
+
+# secret configg
+appsettings.Development.json
+appsettings.Local.json
+*.env
+.env
+
+# junk
+.DS_Store
+Thumbs.db
+
+*.log
