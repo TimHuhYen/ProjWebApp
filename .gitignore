@@ -1,33 +1,21 @@
-bin/
-obj/
-out/
-
-# vs files
-.vs/
+backend/**/bin/
+backend/**/obj/
+backend/**/*.user
 *.suo
-*.user
-*.userosscache
-*.sln.docstates
+.vs/
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.local
+
+# env/secrets
+.env
+.env.local
+appsettings.Development.json
 
 .vscode/
-
 .idea/
 
-# nugget
-*.nupkg
-**/packages/*
-!**/packages/build/
-
-*.db
-
-# secret configg
-appsettings.Development.json
-appsettings.Local.json
-*.env
-.env
-
-# junk
 .DS_Store
 Thumbs.db
-
-*.log
